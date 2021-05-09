@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="50105" started-at="2020-12-07T21:16:37 CST" finished-at="2020-12-07T21:17:27 CST">
+    <groups>
+      <group name="cloudHomework">
+        <method signature="LoginPageTests.login()[pri:0, instance:com.testcases.LoginPageTests@6ee52dcd]" name="login" class="com.testcases.LoginPageTests"/>
+        <method signature="LoginPageTests.negativeLogin(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.testcases.LoginPageTests@6ee52dcd]" name="negativeLogin" class="com.testcases.LoginPageTests"/>
+        <method signature="LoginPageTests.titleValidation()[pri:0, instance:com.testcases.LoginPageTests@6ee52dcd]" name="titleValidation" class="com.testcases.LoginPageTests"/>
+      </group> <!-- cloudHomework -->
+    </groups>
+    <test name="Test" duration-ms="50105" started-at="2020-12-07T21:16:37 CST" finished-at="2020-12-07T21:17:27 CST">
+      <class name="com.testcases.LoginPageTests">
+        <test-method status="PASS" signature="genereteReport()[pri:0, instance:com.testcases.LoginPageTests@6ee52dcd]" name="genereteReport" is-config="true" duration-ms="323" started-at="2020-12-07T21:16:37 CST" finished-at="2020-12-07T21:16:37 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- genereteReport -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.testcases.LoginPageTests@6ee52dcd]" name="setUp" is-config="true" duration-ms="9869" started-at="2020-12-07T21:16:37 CST" finished-at="2020-12-07T21:16:47 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="login()[pri:0, instance:com.testcases.LoginPageTests@6ee52dcd]" name="login" duration-ms="2664" started-at="2020-12-07T21:16:47 CST" finished-at="2020-12-07T21:16:50 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="quitBrowser()[pri:0, instance:com.testcases.LoginPageTests@6ee52dcd]" name="quitBrowser" is-config="true" duration-ms="2019" started-at="2020-12-07T21:16:52 CST" finished-at="2020-12-07T21:16:54 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitBrowser -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.testcases.LoginPageTests@6ee52dcd]" name="setUp" is-config="true" duration-ms="7232" started-at="2020-12-07T21:16:54 CST" finished-at="2020-12-07T21:17:01 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="negativeLogin(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.testcases.LoginPageTests@6ee52dcd]" name="negativeLogin" duration-ms="1955" started-at="2020-12-07T21:17:01 CST" data-provider="data" finished-at="2020-12-07T21:17:03 CST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[kayabay19@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Admin123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Username or Password is wrong]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- negativeLogin -->
+        <test-method status="PASS" signature="quitBrowser()[pri:0, instance:com.testcases.LoginPageTests@6ee52dcd]" name="quitBrowser" is-config="true" duration-ms="1081" started-at="2020-12-07T21:17:04 CST" finished-at="2020-12-07T21:17:05 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitBrowser -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.testcases.LoginPageTests@6ee52dcd]" name="setUp" is-config="true" duration-ms="7324" started-at="2020-12-07T21:17:05 CST" finished-at="2020-12-07T21:17:12 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="negativeLogin(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.testcases.LoginPageTests@6ee52dcd]" name="negativeLogin" duration-ms="1982" started-at="2020-12-07T21:17:12 CST" data-provider="data" finished-at="2020-12-07T21:17:14 CST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[kayabay19@gmail.co]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Admin123.]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Username or Password is wrong]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- negativeLogin -->
+        <test-method status="PASS" signature="quitBrowser()[pri:0, instance:com.testcases.LoginPageTests@6ee52dcd]" name="quitBrowser" is-config="true" duration-ms="1019" started-at="2020-12-07T21:17:15 CST" finished-at="2020-12-07T21:17:16 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitBrowser -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.testcases.LoginPageTests@6ee52dcd]" name="setUp" is-config="true" duration-ms="7159" started-at="2020-12-07T21:17:16 CST" finished-at="2020-12-07T21:17:24 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="titleValidation()[pri:0, instance:com.testcases.LoginPageTests@6ee52dcd]" name="titleValidation" duration-ms="22" started-at="2020-12-07T21:17:24 CST" finished-at="2020-12-07T21:17:24 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- titleValidation -->
+        <test-method status="PASS" signature="quitBrowser()[pri:0, instance:com.testcases.LoginPageTests@6ee52dcd]" name="quitBrowser" is-config="true" duration-ms="1016" started-at="2020-12-07T21:17:25 CST" finished-at="2020-12-07T21:17:26 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitBrowser -->
+        <test-method status="PASS" signature="writeReport()[pri:0, instance:com.testcases.LoginPageTests@6ee52dcd]" name="writeReport" is-config="true" duration-ms="760" started-at="2020-12-07T21:17:26 CST" finished-at="2020-12-07T21:17:27 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- writeReport -->
+      </class> <!-- com.testcases.LoginPageTests -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
